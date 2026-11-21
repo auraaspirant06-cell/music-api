@@ -1,0 +1,9 @@
+# =============================================
+# TELEGRAM BOT DEPENDENCIES
+# =============================================
+# Command: pip install -r requirements.txt
+
+pyrogram>=2.0.106        # Telegram Bot framework
+tgcrypto>=1.2.5          # Pyrogram ke liye fast encryption
+py-tgcalls>=2.1.0        # Telegram Voice Chat me play karne ke liye
+requests>=2.31.0         # API se baat karne ke liye (HTTP client)

@@ -1,0 +1,9 @@
+# =============================================
+# PYTHON DEPENDENCIES
+# =============================================
+# Command: pip install -r requirements.txt
+
+starlette>=0.37.0         # Web framework (lightweight, no pydantic needed)
+uvicorn>=0.28.0           # ASGI server
+yt-dlp>=2024.03.10        # YouTube se audio info extract karta hai
+httpx>=0.27.0             # Async HTTP client (audio stream proxy ke liye)
